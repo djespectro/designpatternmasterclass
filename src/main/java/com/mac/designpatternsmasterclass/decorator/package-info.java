@@ -10,7 +10,6 @@
  *</p>
  *
  * @author mac
- *
  */
 
 package com.mac.designpatternsmasterclass.decorator;

@@ -12,8 +12,8 @@
  * describe how to design flexible and reusable object-oriented software. Deferring the decision about which algorithm
  * to use until runtime allows the calling code to be more flexible and reusable.
  * </p>
- * @author mac
  *
+ * @author mac
  */
 
 package com.mac.designpatternsmasterclass.strategy;
