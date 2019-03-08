@@ -4,6 +4,14 @@ public class Main {
 
     public static void main(String[] args) {
 
+        Singleton singletonOne = Singleton.getInstance();
+        singletonOne.setName("Singleton");
+
+        Singleton singletonTwo = Singleton.getInstance();
+
+        System.out.println("singletonOne: " + singletonOne.getName());
+        System.out.println("singletonTwo: " + singletonTwo.getName());
+
         SingletonLazy singletonLazyOne = SingletonLazy.getInstance();
         singletonLazyOne.setName("lazy");
 
